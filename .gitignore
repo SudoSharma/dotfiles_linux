@@ -1,0 +1,5 @@
+# ignore all files except specified and .gitignore
+/*
+!/.bash_aliases
+!/.vimrc
+!/.gitignore
