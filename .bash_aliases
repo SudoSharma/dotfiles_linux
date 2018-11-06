@@ -10,11 +10,6 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 ## Aliases ##
 #############
 
-# some ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
 # alias for having a detatched working director for dotfiles version control
 alias dot='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
 
