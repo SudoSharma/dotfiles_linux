@@ -37,6 +37,10 @@ alias ipy="ipython"
 alias tb="tensorboard --logdir "
 
 # aliasses for gcloud
-alias m0ssh="gcloud compute ssh machine-zero"
-alias m0start="gcloud compute instances start machine-zero --async"
-alias m0stop="gcloud compute instances stop machine-zero --async"
+alias m0="gcloud compute ssh machine-zero"
+alias m0on="gcloud compute instances start machine-zero --async"
+alias m0off="gcloud compute instances stop machine-zero --async"
+
+alias m1="gcloud compute ssh machine-one"
+alias m1on="gcloud compute instances start machine-one --async"
+alias m1off="gcloud compute instances stop machine-one --async"
