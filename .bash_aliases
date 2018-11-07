@@ -44,3 +44,6 @@ alias m0off="gcloud compute instances stop machine-zero --async"
 alias m1="gcloud compute ssh machine-one --zone asia-east1-a"
 alias m1on="gcloud compute instances start machine-one --zone asia-east1-a --async"
 alias m1off="gcloud compute instances stop machine-one --zone asia-east1-a --async"
+
+# alias for conda activate
+alias ca="conda activate"
