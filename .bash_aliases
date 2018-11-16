@@ -19,6 +19,9 @@ alias nb="jupyter notebook"
 # alias for clearing the terminal
 alias c="clear"
 
+# alias for ls
+alias ll="ls -hal"
+
 # some directory aliases
 alias ..="cd ../"
 alias ...="cd ../../"
