@@ -5,7 +5,6 @@ export PS1="\[$(tput bold)\]\[$(tput setaf 2)\]\u@\H: [\W] $ \[$(tput sgr0)\]"
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
-
 #############
 ## Aliases ##
 #############
@@ -20,7 +19,7 @@ alias nb="jupyter notebook"
 alias c="clear"
 
 # alias for ls
-alias ll="ls -hal"
+alias ll="ls -halF"
 
 # some directory aliases
 alias ..="cd ../"
@@ -50,4 +49,8 @@ alias m1on="gcloud compute instances start machine-one --zone asia-east1-a --asy
 alias m1off="gcloud compute instances stop machine-one --zone asia-east1-a --async"
 
 # alias for conda activate
-alias ca="conda activate"
+alias coa="conda activate"
+alias cod="conda deactivate"
+
+# Set terminal to vi mode
+set -o vi
