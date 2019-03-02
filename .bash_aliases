@@ -54,3 +54,8 @@ alias cod="conda deactivate"
 
 # Set terminal to vi mode
 set -o vi
+
+# if lazy exists, include in PATH
+if [ -d ~/lazy]; then
+    export PATH=$PATH:~/lazy
+fi
