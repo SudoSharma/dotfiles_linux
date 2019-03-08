@@ -56,6 +56,6 @@ alias cod="conda deactivate"
 set -o vi
 
 # if lazy exists, include in PATH
-if [ -d ~/lazy]; then
-    export PATH=$PATH:~/lazy
+if [ -d ~/lazy_scripts ]; then
+    export PATH=$PATH:~/lazy_scripts
 fi
