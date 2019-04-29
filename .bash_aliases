@@ -38,8 +38,9 @@ alias ipy="ipython"
 # alias for tensorboard
 alias tb="tensorboard --logdir "
 
-# aliasses for gcloud
+# aliases for cloud instances 
 alias gls="gcloud compute instances list"
+
 alias m0="gcloud compute ssh machine-zero"
 alias m0on="gcloud compute instances start machine-zero --async"
 alias m0off="gcloud compute instances stop machine-zero --async"
@@ -47,6 +48,8 @@ alias m0off="gcloud compute instances stop machine-zero --async"
 alias m1="gcloud compute ssh machine-one --zone asia-east1-a"
 alias m1on="gcloud compute instances start machine-one --zone asia-east1-a --async"
 alias m1off="gcloud compute instances stop machine-one --zone asia-east1-a --async"
+
+alias m2="ssh -i ~/.ssh/id_rsa -L localhost:8888:localhost:8888 ubuntu@35.160.7.206"
 
 # alias for conda activate
 alias coa="conda activate"
