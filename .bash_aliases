@@ -49,7 +49,7 @@ alias m1="gcloud compute ssh machine-one --zone asia-east1-a"
 alias m1on="gcloud compute instances start machine-one --zone asia-east1-a --async"
 alias m1off="gcloud compute instances stop machine-one --zone asia-east1-a --async"
 
-alias m2="ssh -i ~/.ssh/id_rsa -L 8888:localhost:8888 -L 6006:localhost:6006 ubuntu@35.160.7.206"
+alias m2="ssh -i ~/.ssh/id_rsa -L 8888:localhost:8888 -L 6006:localhost:6006 ubuntu@54.218.210.203"
 alias m2on="aws ec2 start-instances --instance-id=i-0c5fd957da5065fc6"
 alias m2off="aws ec2 stop-instances --instance-id=i-0c5fd957da5065fc6"
 
